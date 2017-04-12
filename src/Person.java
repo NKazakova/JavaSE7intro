@@ -7,6 +7,7 @@ public class Person {
 
     public int getAge() {
         return age;
+
     }
 
     public static void main(String[] args) {
