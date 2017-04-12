@@ -52,4 +52,13 @@ public class Account {
     public int hashCode() {
         return Objects.hash(person);
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "person=" + person.getName() +
+                ", bill=" + bill +
+                ", overdraft=" + overdraft +
+                '}';
+    }
 }

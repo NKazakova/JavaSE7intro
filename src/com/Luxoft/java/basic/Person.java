@@ -4,6 +4,8 @@ package com.Luxoft.java.basic;
  * Created by user on 11.04.2017.
  */
 public class Person {
+
+
     private String name;
     private int age;
 
@@ -11,7 +13,16 @@ public class Person {
         return age;
     }
 
-    public static void main(String[] args) {
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    /*public static void main(String[] args) {
 
         Person person1 = new Person();
         person1.age = 10;
@@ -23,5 +34,5 @@ public class Person {
         System.out.println(person2.getAge());
 
 
-    }
+    }*/
 }
