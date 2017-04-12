@@ -12,6 +12,7 @@ public class MutableTest {
         System.out.println(date);
     }
 
+
     private static void changeDate (Date date){
         date.setTime(0);}
 }
