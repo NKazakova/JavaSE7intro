@@ -1,11 +1,11 @@
-import com.Luxoft.java.basic.Chemist.Table;
+package com.Luxoft.java.basic.Furniture;
 
 /**
  * Created by user on 12.04.2017.
  */
-public class Main {
+public class Table {
 
     public static void main(String[] args) {
-        new Table();
+
     }
 }
