@@ -7,6 +7,17 @@ import com.Luxoft.java.basic.Person;
  */
 public class BankApplication {
 
+    private Bank bank;
+
+
+    public BankApplication (){
+        this (new Bank("Cber")); /*главный конструктор*/
+    }
+
+    public BankApplication(Bank bank) {
+        this.bank = bank;
+
+    }
 
 
     public static void main(String[] args) {
