@@ -16,13 +16,19 @@ public class BankApplication {
 
     public BankApplication(Bank bank) {
         this.bank = bank;
-
     }
 
+    /*статический блок  инициализации*/
+      private static int counter;
+    static {
+        /*сюда вносится логика инициализации класса*/
+        counter=5;
+    }
 
     public static void main(String[] args) {
 
 
+       /* имплементация интерфейсов*/
         A a = new A();
         A a1 = new B();
         B b = new B();
@@ -30,6 +36,8 @@ public class BankApplication {
         C c = new D();
 
         a.m();b.m2();a3.m3(3);
+
+
 
         Account account=new Account(
                 new Person("John",35),500,1000
