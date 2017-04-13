@@ -7,7 +7,18 @@ import com.Luxoft.java.basic.Person;
  */
 public class BankApplication {
 
+
+
     public static void main(String[] args) {
+
+
+        A a = new A();
+        A a1 = new B();
+        B b = new B();
+        D a3 = new D();
+        C c = new D();
+
+        a.m();b.m2();a3.m3(3);
 
         Account account=new Account(
                 new Person("John",35),500,1000
